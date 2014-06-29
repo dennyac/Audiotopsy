@@ -1,0 +1,1018 @@
+get_data.sh started execution at 201406290835
+Downloaded file A.tsv.a
+Placed A.tsv.a in hdfs
+Removed A.tsv.a from local filesystem
+Downloaded file A.tsv.b
+Placed A.tsv.b in hdfs
+Removed A.tsv.b from local filesystem
+Downloaded file A.tsv.c
+Placed A.tsv.c in hdfs
+Removed A.tsv.c from local filesystem
+Downloaded file A.tsv.d
+Placed A.tsv.d in hdfs
+Removed A.tsv.d from local filesystem
+Downloaded file A.tsv.e
+Placed A.tsv.e in hdfs
+Removed A.tsv.e from local filesystem
+Downloaded file A.tsv.f
+Placed A.tsv.f in hdfs
+Removed A.tsv.f from local filesystem
+Downloaded file A.tsv.g
+Placed A.tsv.g in hdfs
+Removed A.tsv.g from local filesystem
+Downloaded file A.tsv.h
+Placed A.tsv.h in hdfs
+Removed A.tsv.h from local filesystem
+Downloaded file A.tsv.i
+Placed A.tsv.i in hdfs
+Removed A.tsv.i from local filesystem
+Downloaded file A.tsv.j
+Placed A.tsv.j in hdfs
+Removed A.tsv.j from local filesystem
+Downloaded file A.tsv.k
+Placed A.tsv.k in hdfs
+Removed A.tsv.k from local filesystem
+Downloaded file A.tsv.l
+Placed A.tsv.l in hdfs
+Removed A.tsv.l from local filesystem
+Downloaded file A.tsv.m
+Placed A.tsv.m in hdfs
+Removed A.tsv.m from local filesystem
+Downloaded file A.tsv.n
+Placed A.tsv.n in hdfs
+Removed A.tsv.n from local filesystem
+Downloaded file B.tsv.a
+Placed B.tsv.a in hdfs
+Removed B.tsv.a from local filesystem
+Downloaded file B.tsv.b
+Placed B.tsv.b in hdfs
+Removed B.tsv.b from local filesystem
+Downloaded file B.tsv.c
+Placed B.tsv.c in hdfs
+Removed B.tsv.c from local filesystem
+Downloaded file B.tsv.d
+Placed B.tsv.d in hdfs
+Removed B.tsv.d from local filesystem
+Downloaded file B.tsv.e
+Placed B.tsv.e in hdfs
+Removed B.tsv.e from local filesystem
+Downloaded file B.tsv.f
+Placed B.tsv.f in hdfs
+Removed B.tsv.f from local filesystem
+Downloaded file B.tsv.g
+Placed B.tsv.g in hdfs
+Removed B.tsv.g from local filesystem
+Downloaded file B.tsv.h
+Placed B.tsv.h in hdfs
+Removed B.tsv.h from local filesystem
+Downloaded file B.tsv.i
+Placed B.tsv.i in hdfs
+Removed B.tsv.i from local filesystem
+Downloaded file B.tsv.j
+Placed B.tsv.j in hdfs
+Removed B.tsv.j from local filesystem
+Downloaded file B.tsv.k
+Placed B.tsv.k in hdfs
+Removed B.tsv.k from local filesystem
+Downloaded file B.tsv.l
+Placed B.tsv.l in hdfs
+Removed B.tsv.l from local filesystem
+Downloaded file B.tsv.m
+Placed B.tsv.m in hdfs
+Removed B.tsv.m from local filesystem
+Downloaded file C.tsv.a
+Placed C.tsv.a in hdfs
+Removed C.tsv.a from local filesystem
+Downloaded file C.tsv.b
+Placed C.tsv.b in hdfs
+Removed C.tsv.b from local filesystem
+Downloaded file C.tsv.c
+Placed C.tsv.c in hdfs
+Removed C.tsv.c from local filesystem
+Downloaded file C.tsv.d
+Placed C.tsv.d in hdfs
+Removed C.tsv.d from local filesystem
+Downloaded file C.tsv.e
+Placed C.tsv.e in hdfs
+Removed C.tsv.e from local filesystem
+Downloaded file C.tsv.f
+Placed C.tsv.f in hdfs
+Removed C.tsv.f from local filesystem
+Downloaded file C.tsv.g
+Placed C.tsv.g in hdfs
+Removed C.tsv.g from local filesystem
+Downloaded file C.tsv.h
+Placed C.tsv.h in hdfs
+Removed C.tsv.h from local filesystem
+Downloaded file C.tsv.i
+Placed C.tsv.i in hdfs
+Removed C.tsv.i from local filesystem
+Downloaded file C.tsv.j
+Placed C.tsv.j in hdfs
+Removed C.tsv.j from local filesystem
+Downloaded file C.tsv.k
+Placed C.tsv.k in hdfs
+Removed C.tsv.k from local filesystem
+Downloaded file C.tsv.l
+Placed C.tsv.l in hdfs
+Removed C.tsv.l from local filesystem
+Downloaded file C.tsv.m
+Placed C.tsv.m in hdfs
+Removed C.tsv.m from local filesystem
+Downloaded file D.tsv.a
+Placed D.tsv.a in hdfs
+Removed D.tsv.a from local filesystem
+Downloaded file D.tsv.b
+Placed D.tsv.b in hdfs
+Removed D.tsv.b from local filesystem
+Downloaded file D.tsv.c
+Placed D.tsv.c in hdfs
+Removed D.tsv.c from local filesystem
+Downloaded file D.tsv.d
+Placed D.tsv.d in hdfs
+Removed D.tsv.d from local filesystem
+Downloaded file D.tsv.e
+Placed D.tsv.e in hdfs
+Removed D.tsv.e from local filesystem
+Downloaded file D.tsv.f
+Placed D.tsv.f in hdfs
+Removed D.tsv.f from local filesystem
+Downloaded file D.tsv.g
+Placed D.tsv.g in hdfs
+Removed D.tsv.g from local filesystem
+Downloaded file D.tsv.h
+Placed D.tsv.h in hdfs
+Removed D.tsv.h from local filesystem
+Downloaded file D.tsv.i
+Placed D.tsv.i in hdfs
+Removed D.tsv.i from local filesystem
+Downloaded file D.tsv.j
+Placed D.tsv.j in hdfs
+Removed D.tsv.j from local filesystem
+Downloaded file D.tsv.k
+Placed D.tsv.k in hdfs
+Removed D.tsv.k from local filesystem
+Downloaded file D.tsv.l
+Placed D.tsv.l in hdfs
+Removed D.tsv.l from local filesystem
+Downloaded file D.tsv.m
+Placed D.tsv.m in hdfs
+Removed D.tsv.m from local filesystem
+Downloaded file E.tsv.a
+Placed E.tsv.a in hdfs
+Removed E.tsv.a from local filesystem
+Downloaded file E.tsv.b
+Placed E.tsv.b in hdfs
+Removed E.tsv.b from local filesystem
+Downloaded file E.tsv.c
+Placed E.tsv.c in hdfs
+Removed E.tsv.c from local filesystem
+Downloaded file E.tsv.d
+Placed E.tsv.d in hdfs
+Removed E.tsv.d from local filesystem
+Downloaded file E.tsv.e
+Placed E.tsv.e in hdfs
+Removed E.tsv.e from local filesystem
+Downloaded file E.tsv.f
+Placed E.tsv.f in hdfs
+Removed E.tsv.f from local filesystem
+Downloaded file E.tsv.g
+Placed E.tsv.g in hdfs
+Removed E.tsv.g from local filesystem
+Downloaded file E.tsv.h
+Placed E.tsv.h in hdfs
+Removed E.tsv.h from local filesystem
+Downloaded file E.tsv.i
+Placed E.tsv.i in hdfs
+Removed E.tsv.i from local filesystem
+Downloaded file E.tsv.j
+Placed E.tsv.j in hdfs
+Removed E.tsv.j from local filesystem
+Downloaded file E.tsv.k
+Placed E.tsv.k in hdfs
+Removed E.tsv.k from local filesystem
+Downloaded file E.tsv.l
+Placed E.tsv.l in hdfs
+Removed E.tsv.l from local filesystem
+Downloaded file E.tsv.m
+Placed E.tsv.m in hdfs
+Removed E.tsv.m from local filesystem
+Downloaded file F.tsv.a
+Placed F.tsv.a in hdfs
+Removed F.tsv.a from local filesystem
+Downloaded file F.tsv.b
+Placed F.tsv.b in hdfs
+Removed F.tsv.b from local filesystem
+Downloaded file F.tsv.c
+Placed F.tsv.c in hdfs
+Removed F.tsv.c from local filesystem
+Downloaded file F.tsv.d
+Placed F.tsv.d in hdfs
+Removed F.tsv.d from local filesystem
+Downloaded file F.tsv.e
+Placed F.tsv.e in hdfs
+Removed F.tsv.e from local filesystem
+Downloaded file F.tsv.f
+Placed F.tsv.f in hdfs
+Removed F.tsv.f from local filesystem
+Downloaded file F.tsv.g
+Placed F.tsv.g in hdfs
+Removed F.tsv.g from local filesystem
+Downloaded file F.tsv.h
+Placed F.tsv.h in hdfs
+Removed F.tsv.h from local filesystem
+Downloaded file F.tsv.i
+Placed F.tsv.i in hdfs
+Removed F.tsv.i from local filesystem
+Downloaded file F.tsv.j
+Placed F.tsv.j in hdfs
+Removed F.tsv.j from local filesystem
+Downloaded file F.tsv.k
+Placed F.tsv.k in hdfs
+Removed F.tsv.k from local filesystem
+Downloaded file F.tsv.l
+Placed F.tsv.l in hdfs
+Removed F.tsv.l from local filesystem
+Downloaded file F.tsv.m
+Placed F.tsv.m in hdfs
+Removed F.tsv.m from local filesystem
+Downloaded file G.tsv.a
+Placed G.tsv.a in hdfs
+Removed G.tsv.a from local filesystem
+Downloaded file G.tsv.b
+Placed G.tsv.b in hdfs
+Removed G.tsv.b from local filesystem
+Downloaded file G.tsv.c
+Placed G.tsv.c in hdfs
+Removed G.tsv.c from local filesystem
+Downloaded file G.tsv.d
+Placed G.tsv.d in hdfs
+Removed G.tsv.d from local filesystem
+Downloaded file G.tsv.e
+Placed G.tsv.e in hdfs
+Removed G.tsv.e from local filesystem
+Downloaded file G.tsv.f
+Placed G.tsv.f in hdfs
+Removed G.tsv.f from local filesystem
+Downloaded file G.tsv.g
+Placed G.tsv.g in hdfs
+Removed G.tsv.g from local filesystem
+Downloaded file G.tsv.h
+Placed G.tsv.h in hdfs
+Removed G.tsv.h from local filesystem
+Downloaded file G.tsv.i
+Placed G.tsv.i in hdfs
+Removed G.tsv.i from local filesystem
+Downloaded file G.tsv.j
+Placed G.tsv.j in hdfs
+Removed G.tsv.j from local filesystem
+Downloaded file G.tsv.k
+Placed G.tsv.k in hdfs
+Removed G.tsv.k from local filesystem
+Downloaded file G.tsv.l
+Placed G.tsv.l in hdfs
+Removed G.tsv.l from local filesystem
+Downloaded file G.tsv.m
+Placed G.tsv.m in hdfs
+Removed G.tsv.m from local filesystem
+Downloaded file H.tsv.a
+Placed H.tsv.a in hdfs
+Removed H.tsv.a from local filesystem
+Downloaded file H.tsv.b
+Placed H.tsv.b in hdfs
+Removed H.tsv.b from local filesystem
+Downloaded file H.tsv.c
+Placed H.tsv.c in hdfs
+Removed H.tsv.c from local filesystem
+Downloaded file H.tsv.d
+Placed H.tsv.d in hdfs
+Removed H.tsv.d from local filesystem
+Downloaded file H.tsv.e
+Placed H.tsv.e in hdfs
+Removed H.tsv.e from local filesystem
+Downloaded file H.tsv.f
+Placed H.tsv.f in hdfs
+Removed H.tsv.f from local filesystem
+Downloaded file H.tsv.g
+Placed H.tsv.g in hdfs
+Removed H.tsv.g from local filesystem
+Downloaded file H.tsv.h
+Placed H.tsv.h in hdfs
+Removed H.tsv.h from local filesystem
+Downloaded file H.tsv.i
+Placed H.tsv.i in hdfs
+Removed H.tsv.i from local filesystem
+Downloaded file H.tsv.j
+Placed H.tsv.j in hdfs
+Removed H.tsv.j from local filesystem
+Downloaded file H.tsv.k
+Placed H.tsv.k in hdfs
+Removed H.tsv.k from local filesystem
+Downloaded file H.tsv.l
+Placed H.tsv.l in hdfs
+Removed H.tsv.l from local filesystem
+Downloaded file H.tsv.m
+Placed H.tsv.m in hdfs
+Removed H.tsv.m from local filesystem
+Downloaded file I.tsv.a
+Placed I.tsv.a in hdfs
+Removed I.tsv.a from local filesystem
+Downloaded file I.tsv.b
+Placed I.tsv.b in hdfs
+Removed I.tsv.b from local filesystem
+Downloaded file I.tsv.c
+Placed I.tsv.c in hdfs
+Removed I.tsv.c from local filesystem
+Downloaded file I.tsv.d
+Placed I.tsv.d in hdfs
+Removed I.tsv.d from local filesystem
+Downloaded file I.tsv.e
+Placed I.tsv.e in hdfs
+Removed I.tsv.e from local filesystem
+Downloaded file I.tsv.f
+Placed I.tsv.f in hdfs
+Removed I.tsv.f from local filesystem
+Downloaded file I.tsv.g
+Placed I.tsv.g in hdfs
+Removed I.tsv.g from local filesystem
+Downloaded file I.tsv.h
+Placed I.tsv.h in hdfs
+Removed I.tsv.h from local filesystem
+Downloaded file I.tsv.i
+Placed I.tsv.i in hdfs
+Removed I.tsv.i from local filesystem
+Downloaded file I.tsv.j
+Placed I.tsv.j in hdfs
+Removed I.tsv.j from local filesystem
+Downloaded file I.tsv.k
+Placed I.tsv.k in hdfs
+Removed I.tsv.k from local filesystem
+Downloaded file I.tsv.l
+Placed I.tsv.l in hdfs
+Removed I.tsv.l from local filesystem
+Downloaded file I.tsv.m
+Placed I.tsv.m in hdfs
+Removed I.tsv.m from local filesystem
+Downloaded file J.tsv.a
+Placed J.tsv.a in hdfs
+Removed J.tsv.a from local filesystem
+Downloaded file J.tsv.b
+Placed J.tsv.b in hdfs
+Removed J.tsv.b from local filesystem
+Downloaded file J.tsv.c
+Placed J.tsv.c in hdfs
+Removed J.tsv.c from local filesystem
+Downloaded file J.tsv.d
+Placed J.tsv.d in hdfs
+Removed J.tsv.d from local filesystem
+Downloaded file J.tsv.e
+Placed J.tsv.e in hdfs
+Removed J.tsv.e from local filesystem
+Downloaded file J.tsv.f
+Placed J.tsv.f in hdfs
+Removed J.tsv.f from local filesystem
+Downloaded file J.tsv.g
+Placed J.tsv.g in hdfs
+Removed J.tsv.g from local filesystem
+Downloaded file J.tsv.h
+Placed J.tsv.h in hdfs
+Removed J.tsv.h from local filesystem
+Downloaded file J.tsv.i
+Placed J.tsv.i in hdfs
+Removed J.tsv.i from local filesystem
+Downloaded file J.tsv.j
+Placed J.tsv.j in hdfs
+Removed J.tsv.j from local filesystem
+Downloaded file J.tsv.k
+Placed J.tsv.k in hdfs
+Removed J.tsv.k from local filesystem
+Downloaded file J.tsv.l
+Placed J.tsv.l in hdfs
+Removed J.tsv.l from local filesystem
+Downloaded file J.tsv.m
+Placed J.tsv.m in hdfs
+Removed J.tsv.m from local filesystem
+Downloaded file K.tsv.a
+Placed K.tsv.a in hdfs
+Removed K.tsv.a from local filesystem
+Downloaded file K.tsv.b
+Placed K.tsv.b in hdfs
+Removed K.tsv.b from local filesystem
+Downloaded file K.tsv.c
+Placed K.tsv.c in hdfs
+Removed K.tsv.c from local filesystem
+Downloaded file K.tsv.d
+Placed K.tsv.d in hdfs
+Removed K.tsv.d from local filesystem
+Downloaded file K.tsv.e
+Placed K.tsv.e in hdfs
+Removed K.tsv.e from local filesystem
+Downloaded file K.tsv.f
+Placed K.tsv.f in hdfs
+Removed K.tsv.f from local filesystem
+Downloaded file K.tsv.g
+Placed K.tsv.g in hdfs
+Removed K.tsv.g from local filesystem
+Downloaded file K.tsv.h
+Placed K.tsv.h in hdfs
+Removed K.tsv.h from local filesystem
+Downloaded file K.tsv.i
+Placed K.tsv.i in hdfs
+Removed K.tsv.i from local filesystem
+Downloaded file K.tsv.j
+Placed K.tsv.j in hdfs
+Removed K.tsv.j from local filesystem
+Downloaded file K.tsv.k
+Placed K.tsv.k in hdfs
+Removed K.tsv.k from local filesystem
+Downloaded file K.tsv.l
+Placed K.tsv.l in hdfs
+Removed K.tsv.l from local filesystem
+Downloaded file K.tsv.m
+Placed K.tsv.m in hdfs
+Removed K.tsv.m from local filesystem
+Downloaded file L.tsv.a
+Placed L.tsv.a in hdfs
+Removed L.tsv.a from local filesystem
+Downloaded file L.tsv.b
+Placed L.tsv.b in hdfs
+Removed L.tsv.b from local filesystem
+Downloaded file L.tsv.c
+Placed L.tsv.c in hdfs
+Removed L.tsv.c from local filesystem
+Downloaded file L.tsv.d
+Placed L.tsv.d in hdfs
+Removed L.tsv.d from local filesystem
+Downloaded file L.tsv.e
+Placed L.tsv.e in hdfs
+Removed L.tsv.e from local filesystem
+Downloaded file L.tsv.f
+Placed L.tsv.f in hdfs
+Removed L.tsv.f from local filesystem
+Downloaded file L.tsv.g
+Placed L.tsv.g in hdfs
+Removed L.tsv.g from local filesystem
+Downloaded file L.tsv.h
+Placed L.tsv.h in hdfs
+Removed L.tsv.h from local filesystem
+Downloaded file L.tsv.i
+Placed L.tsv.i in hdfs
+Removed L.tsv.i from local filesystem
+Downloaded file L.tsv.j
+Placed L.tsv.j in hdfs
+Removed L.tsv.j from local filesystem
+Downloaded file L.tsv.k
+Placed L.tsv.k in hdfs
+Removed L.tsv.k from local filesystem
+Downloaded file L.tsv.l
+Placed L.tsv.l in hdfs
+Removed L.tsv.l from local filesystem
+Downloaded file L.tsv.m
+Placed L.tsv.m in hdfs
+Removed L.tsv.m from local filesystem
+Downloaded file M.tsv.a
+Placed M.tsv.a in hdfs
+Removed M.tsv.a from local filesystem
+Downloaded file M.tsv.b
+Placed M.tsv.b in hdfs
+Removed M.tsv.b from local filesystem
+Downloaded file M.tsv.c
+Placed M.tsv.c in hdfs
+Removed M.tsv.c from local filesystem
+Downloaded file M.tsv.d
+Placed M.tsv.d in hdfs
+Removed M.tsv.d from local filesystem
+Downloaded file M.tsv.e
+Placed M.tsv.e in hdfs
+Removed M.tsv.e from local filesystem
+Downloaded file M.tsv.f
+Placed M.tsv.f in hdfs
+Removed M.tsv.f from local filesystem
+Downloaded file M.tsv.g
+Placed M.tsv.g in hdfs
+Removed M.tsv.g from local filesystem
+Downloaded file M.tsv.h
+Placed M.tsv.h in hdfs
+Removed M.tsv.h from local filesystem
+Downloaded file M.tsv.i
+Placed M.tsv.i in hdfs
+Removed M.tsv.i from local filesystem
+Downloaded file M.tsv.j
+Placed M.tsv.j in hdfs
+Removed M.tsv.j from local filesystem
+Downloaded file M.tsv.k
+Placed M.tsv.k in hdfs
+Removed M.tsv.k from local filesystem
+Downloaded file M.tsv.l
+Placed M.tsv.l in hdfs
+Removed M.tsv.l from local filesystem
+Downloaded file M.tsv.m
+Placed M.tsv.m in hdfs
+Removed M.tsv.m from local filesystem
+Downloaded file N.tsv.a
+Placed N.tsv.a in hdfs
+Removed N.tsv.a from local filesystem
+Downloaded file N.tsv.b
+Placed N.tsv.b in hdfs
+Removed N.tsv.b from local filesystem
+Downloaded file N.tsv.c
+Placed N.tsv.c in hdfs
+Removed N.tsv.c from local filesystem
+Downloaded file N.tsv.d
+Placed N.tsv.d in hdfs
+Removed N.tsv.d from local filesystem
+Downloaded file N.tsv.e
+Placed N.tsv.e in hdfs
+Removed N.tsv.e from local filesystem
+Downloaded file N.tsv.f
+Placed N.tsv.f in hdfs
+Removed N.tsv.f from local filesystem
+Downloaded file N.tsv.g
+Placed N.tsv.g in hdfs
+Removed N.tsv.g from local filesystem
+Downloaded file N.tsv.h
+Placed N.tsv.h in hdfs
+Removed N.tsv.h from local filesystem
+Downloaded file N.tsv.i
+Placed N.tsv.i in hdfs
+Removed N.tsv.i from local filesystem
+Downloaded file N.tsv.j
+Placed N.tsv.j in hdfs
+Removed N.tsv.j from local filesystem
+Downloaded file N.tsv.k
+Placed N.tsv.k in hdfs
+Removed N.tsv.k from local filesystem
+Downloaded file N.tsv.l
+Placed N.tsv.l in hdfs
+Removed N.tsv.l from local filesystem
+Downloaded file N.tsv.m
+Placed N.tsv.m in hdfs
+Removed N.tsv.m from local filesystem
+Downloaded file O.tsv.a
+Placed O.tsv.a in hdfs
+Removed O.tsv.a from local filesystem
+Downloaded file O.tsv.b
+Placed O.tsv.b in hdfs
+Removed O.tsv.b from local filesystem
+Downloaded file O.tsv.c
+Placed O.tsv.c in hdfs
+Removed O.tsv.c from local filesystem
+Downloaded file O.tsv.d
+Placed O.tsv.d in hdfs
+Removed O.tsv.d from local filesystem
+Downloaded file O.tsv.e
+Placed O.tsv.e in hdfs
+Removed O.tsv.e from local filesystem
+Downloaded file O.tsv.f
+Placed O.tsv.f in hdfs
+Removed O.tsv.f from local filesystem
+Downloaded file O.tsv.g
+Placed O.tsv.g in hdfs
+Removed O.tsv.g from local filesystem
+Downloaded file O.tsv.h
+Placed O.tsv.h in hdfs
+Removed O.tsv.h from local filesystem
+Downloaded file O.tsv.i
+Placed O.tsv.i in hdfs
+Removed O.tsv.i from local filesystem
+Downloaded file O.tsv.j
+Placed O.tsv.j in hdfs
+Removed O.tsv.j from local filesystem
+Downloaded file O.tsv.k
+Placed O.tsv.k in hdfs
+Removed O.tsv.k from local filesystem
+Downloaded file O.tsv.l
+Placed O.tsv.l in hdfs
+Removed O.tsv.l from local filesystem
+Downloaded file O.tsv.m
+Placed O.tsv.m in hdfs
+Removed O.tsv.m from local filesystem
+Downloaded file P.tsv.a
+Placed P.tsv.a in hdfs
+Removed P.tsv.a from local filesystem
+Downloaded file P.tsv.b
+Placed P.tsv.b in hdfs
+Removed P.tsv.b from local filesystem
+Downloaded file P.tsv.c
+Placed P.tsv.c in hdfs
+Removed P.tsv.c from local filesystem
+Downloaded file P.tsv.d
+Placed P.tsv.d in hdfs
+Removed P.tsv.d from local filesystem
+Downloaded file P.tsv.e
+Placed P.tsv.e in hdfs
+Removed P.tsv.e from local filesystem
+Downloaded file P.tsv.f
+Placed P.tsv.f in hdfs
+Removed P.tsv.f from local filesystem
+Downloaded file P.tsv.g
+Placed P.tsv.g in hdfs
+Removed P.tsv.g from local filesystem
+Downloaded file P.tsv.h
+Placed P.tsv.h in hdfs
+Removed P.tsv.h from local filesystem
+Downloaded file P.tsv.i
+Placed P.tsv.i in hdfs
+Removed P.tsv.i from local filesystem
+Downloaded file P.tsv.j
+Placed P.tsv.j in hdfs
+Removed P.tsv.j from local filesystem
+Downloaded file P.tsv.k
+Placed P.tsv.k in hdfs
+Removed P.tsv.k from local filesystem
+Downloaded file P.tsv.l
+Placed P.tsv.l in hdfs
+Removed P.tsv.l from local filesystem
+Downloaded file P.tsv.m
+Placed P.tsv.m in hdfs
+Removed P.tsv.m from local filesystem
+Downloaded file Q.tsv.a
+Placed Q.tsv.a in hdfs
+Removed Q.tsv.a from local filesystem
+Downloaded file Q.tsv.b
+Placed Q.tsv.b in hdfs
+Removed Q.tsv.b from local filesystem
+Downloaded file Q.tsv.c
+Placed Q.tsv.c in hdfs
+Removed Q.tsv.c from local filesystem
+Downloaded file Q.tsv.d
+Placed Q.tsv.d in hdfs
+Removed Q.tsv.d from local filesystem
+Downloaded file Q.tsv.e
+Placed Q.tsv.e in hdfs
+Removed Q.tsv.e from local filesystem
+Downloaded file Q.tsv.f
+Placed Q.tsv.f in hdfs
+Removed Q.tsv.f from local filesystem
+Downloaded file Q.tsv.g
+Placed Q.tsv.g in hdfs
+Removed Q.tsv.g from local filesystem
+Downloaded file Q.tsv.h
+Placed Q.tsv.h in hdfs
+Removed Q.tsv.h from local filesystem
+Downloaded file Q.tsv.i
+Placed Q.tsv.i in hdfs
+Removed Q.tsv.i from local filesystem
+Downloaded file Q.tsv.j
+Placed Q.tsv.j in hdfs
+Removed Q.tsv.j from local filesystem
+Downloaded file Q.tsv.k
+Placed Q.tsv.k in hdfs
+Removed Q.tsv.k from local filesystem
+Downloaded file Q.tsv.l
+Placed Q.tsv.l in hdfs
+Removed Q.tsv.l from local filesystem
+Downloaded file Q.tsv.m
+Placed Q.tsv.m in hdfs
+Removed Q.tsv.m from local filesystem
+Downloaded file R.tsv.a
+Placed R.tsv.a in hdfs
+Removed R.tsv.a from local filesystem
+Downloaded file R.tsv.b
+Placed R.tsv.b in hdfs
+Removed R.tsv.b from local filesystem
+Downloaded file R.tsv.c
+Placed R.tsv.c in hdfs
+Removed R.tsv.c from local filesystem
+Downloaded file R.tsv.d
+Placed R.tsv.d in hdfs
+Removed R.tsv.d from local filesystem
+Downloaded file R.tsv.e
+Placed R.tsv.e in hdfs
+Removed R.tsv.e from local filesystem
+Downloaded file R.tsv.f
+Placed R.tsv.f in hdfs
+Removed R.tsv.f from local filesystem
+Downloaded file R.tsv.g
+Placed R.tsv.g in hdfs
+Removed R.tsv.g from local filesystem
+Downloaded file R.tsv.h
+Placed R.tsv.h in hdfs
+Removed R.tsv.h from local filesystem
+Downloaded file R.tsv.i
+Placed R.tsv.i in hdfs
+Removed R.tsv.i from local filesystem
+Downloaded file R.tsv.j
+Placed R.tsv.j in hdfs
+Removed R.tsv.j from local filesystem
+Downloaded file R.tsv.k
+Placed R.tsv.k in hdfs
+Removed R.tsv.k from local filesystem
+Downloaded file R.tsv.l
+Placed R.tsv.l in hdfs
+Removed R.tsv.l from local filesystem
+Downloaded file R.tsv.m
+Placed R.tsv.m in hdfs
+Removed R.tsv.m from local filesystem
+Downloaded file S.tsv.a
+Placed S.tsv.a in hdfs
+Removed S.tsv.a from local filesystem
+Downloaded file S.tsv.b
+Placed S.tsv.b in hdfs
+Removed S.tsv.b from local filesystem
+Downloaded file S.tsv.c
+Placed S.tsv.c in hdfs
+Removed S.tsv.c from local filesystem
+Downloaded file S.tsv.d
+Placed S.tsv.d in hdfs
+Removed S.tsv.d from local filesystem
+Downloaded file S.tsv.e
+Placed S.tsv.e in hdfs
+Removed S.tsv.e from local filesystem
+Downloaded file S.tsv.f
+Placed S.tsv.f in hdfs
+Removed S.tsv.f from local filesystem
+Downloaded file S.tsv.g
+Placed S.tsv.g in hdfs
+Removed S.tsv.g from local filesystem
+Downloaded file S.tsv.h
+Placed S.tsv.h in hdfs
+Removed S.tsv.h from local filesystem
+Downloaded file S.tsv.i
+Placed S.tsv.i in hdfs
+Removed S.tsv.i from local filesystem
+Downloaded file S.tsv.j
+Placed S.tsv.j in hdfs
+Removed S.tsv.j from local filesystem
+Downloaded file S.tsv.k
+Placed S.tsv.k in hdfs
+Removed S.tsv.k from local filesystem
+Downloaded file S.tsv.l
+Placed S.tsv.l in hdfs
+Removed S.tsv.l from local filesystem
+Downloaded file S.tsv.m
+Placed S.tsv.m in hdfs
+Removed S.tsv.m from local filesystem
+Downloaded file T.tsv.a
+Placed T.tsv.a in hdfs
+Removed T.tsv.a from local filesystem
+Downloaded file T.tsv.b
+Placed T.tsv.b in hdfs
+Removed T.tsv.b from local filesystem
+Downloaded file T.tsv.c
+Placed T.tsv.c in hdfs
+Removed T.tsv.c from local filesystem
+Downloaded file T.tsv.d
+Placed T.tsv.d in hdfs
+Removed T.tsv.d from local filesystem
+Downloaded file T.tsv.e
+Placed T.tsv.e in hdfs
+Removed T.tsv.e from local filesystem
+Downloaded file T.tsv.f
+Placed T.tsv.f in hdfs
+Removed T.tsv.f from local filesystem
+Downloaded file T.tsv.g
+Placed T.tsv.g in hdfs
+Removed T.tsv.g from local filesystem
+Downloaded file T.tsv.h
+Placed T.tsv.h in hdfs
+Removed T.tsv.h from local filesystem
+Downloaded file T.tsv.i
+Placed T.tsv.i in hdfs
+Removed T.tsv.i from local filesystem
+Downloaded file T.tsv.j
+Placed T.tsv.j in hdfs
+Removed T.tsv.j from local filesystem
+Downloaded file T.tsv.k
+Placed T.tsv.k in hdfs
+Removed T.tsv.k from local filesystem
+Downloaded file T.tsv.l
+Placed T.tsv.l in hdfs
+Removed T.tsv.l from local filesystem
+Downloaded file T.tsv.m
+Placed T.tsv.m in hdfs
+Removed T.tsv.m from local filesystem
+Downloaded file U.tsv.a
+Placed U.tsv.a in hdfs
+Removed U.tsv.a from local filesystem
+Downloaded file U.tsv.b
+Placed U.tsv.b in hdfs
+Removed U.tsv.b from local filesystem
+Downloaded file U.tsv.c
+Placed U.tsv.c in hdfs
+Removed U.tsv.c from local filesystem
+Downloaded file U.tsv.d
+Placed U.tsv.d in hdfs
+Removed U.tsv.d from local filesystem
+Downloaded file U.tsv.e
+Placed U.tsv.e in hdfs
+Removed U.tsv.e from local filesystem
+Downloaded file U.tsv.f
+Placed U.tsv.f in hdfs
+Removed U.tsv.f from local filesystem
+Downloaded file U.tsv.g
+Placed U.tsv.g in hdfs
+Removed U.tsv.g from local filesystem
+Downloaded file U.tsv.h
+Placed U.tsv.h in hdfs
+Removed U.tsv.h from local filesystem
+Downloaded file U.tsv.i
+Placed U.tsv.i in hdfs
+Removed U.tsv.i from local filesystem
+Downloaded file U.tsv.j
+Placed U.tsv.j in hdfs
+Removed U.tsv.j from local filesystem
+Downloaded file U.tsv.k
+Placed U.tsv.k in hdfs
+Removed U.tsv.k from local filesystem
+Downloaded file U.tsv.l
+Placed U.tsv.l in hdfs
+Removed U.tsv.l from local filesystem
+Downloaded file U.tsv.m
+Placed U.tsv.m in hdfs
+Removed U.tsv.m from local filesystem
+Downloaded file V.tsv.a
+Placed V.tsv.a in hdfs
+Removed V.tsv.a from local filesystem
+Downloaded file V.tsv.b
+Placed V.tsv.b in hdfs
+Removed V.tsv.b from local filesystem
+Downloaded file V.tsv.c
+Placed V.tsv.c in hdfs
+Removed V.tsv.c from local filesystem
+Downloaded file V.tsv.d
+Placed V.tsv.d in hdfs
+Removed V.tsv.d from local filesystem
+Downloaded file V.tsv.e
+Placed V.tsv.e in hdfs
+Removed V.tsv.e from local filesystem
+Downloaded file V.tsv.f
+Placed V.tsv.f in hdfs
+Removed V.tsv.f from local filesystem
+Downloaded file V.tsv.g
+Placed V.tsv.g in hdfs
+Removed V.tsv.g from local filesystem
+Downloaded file V.tsv.h
+Placed V.tsv.h in hdfs
+Removed V.tsv.h from local filesystem
+Downloaded file V.tsv.i
+Placed V.tsv.i in hdfs
+Removed V.tsv.i from local filesystem
+Downloaded file V.tsv.j
+Placed V.tsv.j in hdfs
+Removed V.tsv.j from local filesystem
+Downloaded file V.tsv.k
+Placed V.tsv.k in hdfs
+Removed V.tsv.k from local filesystem
+Downloaded file V.tsv.l
+Placed V.tsv.l in hdfs
+Removed V.tsv.l from local filesystem
+Downloaded file V.tsv.m
+Placed V.tsv.m in hdfs
+Removed V.tsv.m from local filesystem
+Downloaded file W.tsv.a
+Placed W.tsv.a in hdfs
+Removed W.tsv.a from local filesystem
+Downloaded file W.tsv.b
+Placed W.tsv.b in hdfs
+Removed W.tsv.b from local filesystem
+Downloaded file W.tsv.c
+Placed W.tsv.c in hdfs
+Removed W.tsv.c from local filesystem
+Downloaded file W.tsv.d
+Placed W.tsv.d in hdfs
+Removed W.tsv.d from local filesystem
+Downloaded file W.tsv.e
+Placed W.tsv.e in hdfs
+Removed W.tsv.e from local filesystem
+Downloaded file W.tsv.f
+Placed W.tsv.f in hdfs
+Removed W.tsv.f from local filesystem
+Downloaded file W.tsv.g
+Placed W.tsv.g in hdfs
+Removed W.tsv.g from local filesystem
+Downloaded file W.tsv.h
+Placed W.tsv.h in hdfs
+Removed W.tsv.h from local filesystem
+Downloaded file W.tsv.i
+Placed W.tsv.i in hdfs
+Removed W.tsv.i from local filesystem
+Downloaded file W.tsv.j
+Placed W.tsv.j in hdfs
+Removed W.tsv.j from local filesystem
+Downloaded file W.tsv.k
+Placed W.tsv.k in hdfs
+Removed W.tsv.k from local filesystem
+Downloaded file W.tsv.l
+Placed W.tsv.l in hdfs
+Removed W.tsv.l from local filesystem
+Downloaded file W.tsv.m
+Placed W.tsv.m in hdfs
+Removed W.tsv.m from local filesystem
+Downloaded file X.tsv.a
+Placed X.tsv.a in hdfs
+Removed X.tsv.a from local filesystem
+Downloaded file X.tsv.b
+Placed X.tsv.b in hdfs
+Removed X.tsv.b from local filesystem
+Downloaded file X.tsv.c
+Placed X.tsv.c in hdfs
+Removed X.tsv.c from local filesystem
+Downloaded file X.tsv.d
+Placed X.tsv.d in hdfs
+Removed X.tsv.d from local filesystem
+Downloaded file X.tsv.e
+Placed X.tsv.e in hdfs
+Removed X.tsv.e from local filesystem
+Downloaded file X.tsv.f
+Placed X.tsv.f in hdfs
+Removed X.tsv.f from local filesystem
+Downloaded file X.tsv.g
+Placed X.tsv.g in hdfs
+Removed X.tsv.g from local filesystem
+Downloaded file X.tsv.h
+Placed X.tsv.h in hdfs
+Removed X.tsv.h from local filesystem
+Downloaded file X.tsv.i
+Placed X.tsv.i in hdfs
+Removed X.tsv.i from local filesystem
+Downloaded file X.tsv.j
+Placed X.tsv.j in hdfs
+Removed X.tsv.j from local filesystem
+Downloaded file X.tsv.k
+Placed X.tsv.k in hdfs
+Removed X.tsv.k from local filesystem
+Downloaded file X.tsv.l
+Placed X.tsv.l in hdfs
+Removed X.tsv.l from local filesystem
+Downloaded file X.tsv.m
+Placed X.tsv.m in hdfs
+Removed X.tsv.m from local filesystem
+Downloaded file Y.tsv.a
+Placed Y.tsv.a in hdfs
+Removed Y.tsv.a from local filesystem
+Downloaded file Y.tsv.b
+Placed Y.tsv.b in hdfs
+Removed Y.tsv.b from local filesystem
+Downloaded file Y.tsv.c
+Placed Y.tsv.c in hdfs
+Removed Y.tsv.c from local filesystem
+Downloaded file Y.tsv.d
+Placed Y.tsv.d in hdfs
+Removed Y.tsv.d from local filesystem
+Downloaded file Y.tsv.e
+Placed Y.tsv.e in hdfs
+Removed Y.tsv.e from local filesystem
+Downloaded file Y.tsv.f
+Placed Y.tsv.f in hdfs
+Removed Y.tsv.f from local filesystem
+Downloaded file Y.tsv.g
+Placed Y.tsv.g in hdfs
+Removed Y.tsv.g from local filesystem
+Downloaded file Y.tsv.h
+Placed Y.tsv.h in hdfs
+Removed Y.tsv.h from local filesystem
+Downloaded file Y.tsv.i
+Placed Y.tsv.i in hdfs
+Removed Y.tsv.i from local filesystem
+Downloaded file Y.tsv.j
+Placed Y.tsv.j in hdfs
+Removed Y.tsv.j from local filesystem
+Downloaded file Y.tsv.k
+Placed Y.tsv.k in hdfs
+Removed Y.tsv.k from local filesystem
+Downloaded file Y.tsv.l
+Placed Y.tsv.l in hdfs
+Removed Y.tsv.l from local filesystem
+Downloaded file Y.tsv.m
+Placed Y.tsv.m in hdfs
+Removed Y.tsv.m from local filesystem
+Downloaded file Z.tsv.a
+Placed Z.tsv.a in hdfs
+Removed Z.tsv.a from local filesystem
+Downloaded file Z.tsv.b
+Placed Z.tsv.b in hdfs
+Removed Z.tsv.b from local filesystem
+Downloaded file Z.tsv.c
+Placed Z.tsv.c in hdfs
+Removed Z.tsv.c from local filesystem
+Downloaded file Z.tsv.d
+Placed Z.tsv.d in hdfs
+Removed Z.tsv.d from local filesystem
+Downloaded file Z.tsv.e
+Placed Z.tsv.e in hdfs
+Removed Z.tsv.e from local filesystem
+Downloaded file Z.tsv.f
+Placed Z.tsv.f in hdfs
+Removed Z.tsv.f from local filesystem
+Downloaded file Z.tsv.g
+Placed Z.tsv.g in hdfs
+Removed Z.tsv.g from local filesystem
+Downloaded file Z.tsv.h
+Placed Z.tsv.h in hdfs
+Removed Z.tsv.h from local filesystem
+Downloaded file Z.tsv.i
+Placed Z.tsv.i in hdfs
+Removed Z.tsv.i from local filesystem
+Downloaded file Z.tsv.j
+Placed Z.tsv.j in hdfs
+Removed Z.tsv.j from local filesystem
+Downloaded file Z.tsv.k
+Placed Z.tsv.k in hdfs
+Removed Z.tsv.k from local filesystem
+Downloaded file Z.tsv.l
+Placed Z.tsv.l in hdfs
+Removed Z.tsv.l from local filesystem
+Downloaded file Z.tsv.m
+Placed Z.tsv.m in hdfs
+Removed Z.tsv.m from local filesystem
