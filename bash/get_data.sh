@@ -1,9 +1,7 @@
 #!/bin/bash
 . ./config.sh
 
-dt=`date '+%Y%m%d%H%M'`
-
-echo "get_data.sh started execution at $dt" > ${LOG_PATH}/get_data_${dt}.log
+echo "get_data.sh started execution at ${dt}" > ${LOG_PATH}/get_data_${dt}.log
 
 read_dom () {
   local IFS=\>

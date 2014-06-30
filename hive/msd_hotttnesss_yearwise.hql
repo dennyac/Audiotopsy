@@ -1,0 +1,1 @@
+CREATE EXTERNAL TABLE msd_hotttnesss_yearwise ( year_hotness string, artist_name string, title string, album string) STORED BY 'org.apache.hadoop.hive.hbase.HBaseStorageHandler' WITH SERDEPROPERTIES ("hbase.columns.mapping" = ":key,info:artist,info:title,info:album") TBLPROPERTIES ("hbase.table.name" = "msd_hotttnesss_yearwise");

@@ -1,0 +1,1 @@
+CREATE EXTERNAL TABLE msd_year ( year string, hotttnesss double, duration double, tempo double, loudness double, danceability double, energy double) STORED BY 'org.apache.hadoop.hive.hbase.HBaseStorageHandler' WITH SERDEPROPERTIES ("hbase.columns.mapping" = ":key,info:hot,info:dur,info:tem,info:loud,info:danc,info:egy") TBLPROPERTIES ("hbase.table.name" = "msd_year");
