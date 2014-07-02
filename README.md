@@ -3,6 +3,17 @@ Audiotopsy
 
 Data pipeline for analyzing the Echonest Million Song Dataset
 
+##Introduction
+
+The Million Song Dataset is a collection of a million songs along with meta-data like beats per minute, duration, energy, danceability, hotttnesss factor, location information, etc. 
+
+
+###After this setup you should be able to - 
+####Issue hive queries like - 
+select song_hotttnesss,artist_name,title from denny_msd_date where year ='2009' order by song_hotttnesss desc;
+
+A detailed description of the field list is available here http://labrosa.ee.columbia.edu/millionsong/pages/field-list
+
 ##Instructions to set up the data pipeline
 
 
