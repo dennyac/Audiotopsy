@@ -13,3 +13,7 @@ echo "msd_year table created" >> ${LOG_PATH}/hbase_driver_${dt}.log
 hbase shell msd_hotttnesss_yearwise.hb
 
 echo "msd_hotttnesss_yearwise table created" >> ${LOG_PATH}/hbase_driver_${dt}.log
+
+hbase shell msd_hotttnesss.hb
+
+echo "msd_hotttnesss table created" >> ${LOG_PATH}/hbase_driver_${dt}.log

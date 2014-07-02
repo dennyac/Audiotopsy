@@ -11,23 +11,26 @@ public class TopSongsYearwise{
 		HBaseWrite hb = new HBaseWrite("msd_hotttnesss_yearwise","info");
 		hb.connectHBase();
 		String[] fields = null;
-		FileUtils fu = new FileUtils("/home/ec2-user/denny/tmp_hotttnesss_yearwise");
+		FileUtils fu = new FileUtils("/home/ec2-user/denny/tmp_msd_hotttnesss_yearwise");
+		System.out.println("The size is " + fu.listFiles().size());
 		for(String file: fu.listFiles()){
-			
+			System.out.println("The file is " + file);
 			BufferedReader br = new BufferedReader(new FileReader(file));
 			String line;
 			while ((line = br.readLine()) != null) {
 				try{
-					
 					fields = line.split("\\t");
-			        hb.put(fields[0], "an", fields[1]);
-			        hb.put(fields[0], "sn", fields[2]);
-			        hb.put(fields[0], "al", fields[3]);
+					int year = Integer.parseInt(fields[0].substring(0, 4));
+					if(year > 1900 && year < 2015){
+				        hb.put(fields[0], "an", fields[1]);
+				        hb.put(fields[0], "sn", fields[2]);
+				        hb.put(fields[0], "al", fields[3]);
+				        hb.put(fields[0], "ht", fields[4]);
+					}
    				  }
 				catch(Exception e){
-					System.out.println(e.getMessage());
+					e.printStackTrace();
 				}
-     
 			}
 			br.close();
 		}
