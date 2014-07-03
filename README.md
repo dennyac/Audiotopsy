@@ -31,10 +31,12 @@ The dataset is publicly available as an Amazon S3 bucket. The dataset is pushed 
 1. Clone this repository
 2. To fetch the Echonest Million Song Dataset and push the data to hdfs
 
+
 > cd bash
 > ./get_data.sh
 
 3. To create the hive tables around the master dataset to facilitate ad-hoc querying
+
 
 > cd ../hive
 > ./hive_driver.sh
@@ -59,6 +61,7 @@ The dataset is publicly available as an Amazon S3 bucket. The dataset is pushed 
 - Requires Apache Tomcat and Maven to deploy this web application
 
 1. Create the war file for the web application
+
 
 > cd audiotopsy_webapp
 > mvn package
