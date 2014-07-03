@@ -17,7 +17,7 @@ select song_hotttnesss,artist_name,title from denny_msd_date where year ='2009' 
 A detailed description of the field list is available here http://labrosa.ee.columbia.edu/millionsong/pages/field-list
 
 ###The outline of the data pipeline - 
-![alt tag](https://github.com/dennyac/Audiotopsy/blob/master/data_pipeline.jpg)
+![alt tag](https://raw.github.com/dennyac/Audiotopsy/blob/master/data_pipeline.jpg)
 
 The dataset is publicly available as an Amazon S3 bucket. The dataset is pushed to HDFS using a bash script. Hive tables are built on top of the master dataset to facilitate ad-hoc queries. To get real time access to queries, batch jobs have been scheduled to process these queries and this data is then pushed to HBase. To access this data, RESTful APIs have been built which internally interact with HBase via the HBase Java Client API.
 
