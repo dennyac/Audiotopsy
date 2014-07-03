@@ -5,21 +5,27 @@ Data pipeline for analyzing the Echonest Million Song Dataset
 
 ##Introduction
 
-The Million Song Dataset is a collection of a million songs along with meta-data like beats per minute, duration, energy, danceability, hotttnesss factor, location information, etc. 
+The Million Song Dataset is a collection of a million songs along with meta-data like beats per minute, duration, energy, danceability, hotttnesss factor, location information, etc. This dataset is ripe for research, but it is not feasible to fit it completely in one system. This data pipeline will allow you to ingest the entire data and perform analysis on it.
 
+For additional information about the million song dataset - 
+http://labrosa.ee.columbia.edu/millionsong/
 
-###After this setup you should be able to - 
-####Issue hive queries like - 
+###After setting up this pipeline, you will be able to issue hive queries like- 
+
 select song_hotttnesss,artist_name,title from denny_msd_date where year ='2009' order by song_hotttnesss desc;
 
 A detailed description of the field list is available here http://labrosa.ee.columbia.edu/millionsong/pages/field-list
 
+###The outline of the data pipeline - 
+
+
+The dataset is publicly available as an Amazon S3 bucket. The dataset is pushed to HDFS using a bash script. Hive tables are built on top of the master dataset to facilitate ad-hoc queries. To get real time access to queries, batch jobs have been scheduled to process these queries and this data is then pushed to HBase. To access this data, RESTful APIs have been built which internally interact with HBase via the HBase Java Client API.
+
 ##Instructions to set up the data pipeline
 
-
 ###Prerequisite - 
-Requires a Hadoop Cluster with Cloudera CDH 5.0.2 running
-Ensure that maven is installed
+- Requires a Hadoop Cluster with Cloudera CDH 5.0.2 running
+- Ensure that maven is installed
 
 
 1. Clone this repository
@@ -50,8 +56,7 @@ Ensure that maven is installed
 ##Instructions to set up the Web Application that provide RESTful API
 
 ###Prerequisite - 
-
-Requires Apache Tomcat and Maven to deploy this web application
+- Requires Apache Tomcat and Maven to deploy this web application
 
 1. Create the war file for the web application
 
