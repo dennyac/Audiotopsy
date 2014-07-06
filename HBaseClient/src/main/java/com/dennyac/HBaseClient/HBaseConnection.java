@@ -1,4 +1,4 @@
-package com.dennyac.HBaseImport;
+package com.dennyac.HBaseClient;
 
 import java.io.IOException;
 import java.io.InterruptedIOException;
@@ -10,22 +10,27 @@ import org.apache.hadoop.hbase.client.Put;
 import org.apache.hadoop.hbase.client.RetriesExhaustedWithDetailsException;
 import org.apache.hadoop.hbase.util.Bytes;
 
-public class HBaseWrite {	
+public class HBaseConnection {	
 
-	// TODO : update the table name with your username
 	byte[] tableName;
 	byte[] familyName;
 	Configuration config;
 	HTable htable;
 	
-	HBaseWrite(String tableName, String familyName){
+	HBaseConnection(String tableName, String familyName) throws IOException{
 		this.tableName = Bytes.toBytes(tableName);
 		this.familyName = Bytes.toBytes(familyName);
+		connectHBase();
 		
 	}
 	
-	HBaseWrite(String tableName){
-		this.tableName = Bytes.toBytes(tableName);		
+	HBaseConnection(String tableName) throws IOException{
+		this.tableName = Bytes.toBytes(tableName);
+		connectHBase();
+	}
+	
+	public HTable getTable(){
+		return htable;
 	}
 
 	public void put(String key, String colQualifier, String value)
@@ -52,7 +57,7 @@ public class HBaseWrite {
 
 	}
 
-	public void connectHBase()
+	private void connectHBase()
 			throws IOException {
 
 		config = HBaseConfiguration.create();

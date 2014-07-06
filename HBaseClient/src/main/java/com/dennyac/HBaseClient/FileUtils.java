@@ -1,4 +1,4 @@
-package com.dennyac.HBaseImport;
+package com.dennyac.HBaseClient;
 
 import java.io.File;
 import java.util.ArrayList;

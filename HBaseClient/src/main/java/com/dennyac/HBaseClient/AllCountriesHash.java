@@ -1,4 +1,4 @@
-package com.dennyac.HBaseImport;
+package com.dennyac.HBaseClient;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -7,8 +7,7 @@ import java.io.IOException;
 
 public class AllCountriesHash {
 	public static void main(String[] args) throws FileNotFoundException, IOException{
-		HBaseWrite hb = new HBaseWrite("all_countries_hash");
-		hb.connectHBase();
+		HBaseConnection hb = new HBaseConnection("all_countries_hash");
 		String[] fields = null;
 		FileUtils fu = new FileUtils("/home/ec2-user/denny/tmp_all_countries_hash");
 		for(String file: fu.listFiles()){

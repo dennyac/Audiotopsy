@@ -1,4 +1,4 @@
-package com.dennyac.HBaseImport;
+package com.dennyac.HBaseClient;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -8,8 +8,7 @@ import java.io.IOException;
 
 public class YearWiseStats{
 	public static void main(String[] args) throws FileNotFoundException, IOException{
-		HBaseWrite hb = new HBaseWrite("msd_year","info");
-		hb.connectHBase();
+		HBaseConnection hb = new HBaseConnection("msd_year","info");
 		String[] fields = null;
 		FileUtils fu = new FileUtils("/home/ec2-user/denny/tmp_msd_year");
 		for(String file: fu.listFiles()){

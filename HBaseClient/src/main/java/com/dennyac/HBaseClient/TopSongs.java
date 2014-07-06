@@ -1,4 +1,4 @@
-package com.dennyac.HBaseImport;
+package com.dennyac.HBaseClient;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -7,8 +7,7 @@ import java.io.IOException;
 
 public class TopSongs {
 	public static void main(String[] args) throws FileNotFoundException, IOException{
-		HBaseWrite hb = new HBaseWrite("msd_hotttnesss","info");
-		hb.connectHBase();
+		HBaseConnection hb = new HBaseConnection("msd_hotttnesss","info");
 		String[] fields = null;
 		FileUtils fu = new FileUtils("/home/ec2-user/denny/tmp_msd_hotttnesss");
 		for(String file: fu.listFiles()){

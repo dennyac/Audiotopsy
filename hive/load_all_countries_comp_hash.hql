@@ -1,4 +1,4 @@
-add jar /home/ec2-user/denny/GeohashUDF/target/GeohashUDF-0.0.1-SNAPSHOT-jar-with-dependencies.jar
+add jar /home/ec2-user/denny/GeohashUDF/target/GeohashUDF-0.0.1-SNAPSHOT-jar-with-dependencies.jar;
 
 create temporary function geo as 'com.dennyac.geohashUDF.GetGeohashBinString';
 
