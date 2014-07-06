@@ -8,6 +8,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.HashMap;
+import java.util.Map.Entry;
 
 import org.apache.hadoop.hbase.client.HTable;
 import org.apache.hadoop.hbase.client.Result;
@@ -40,7 +41,8 @@ public class GetCountries {
 		}
 		FileWriter fw = new FileWriter(writeFile.getAbsoluteFile());
 		BufferedWriter bw = new BufferedWriter(fw);
-
+		int max;
+		String topC = null;
 		for (String file : fu.listFiles()) {
 
 			BufferedReader br = new BufferedReader(new FileReader(file));
@@ -66,9 +68,16 @@ public class GetCountries {
 												.get(cc) + 1 : 1);
 
 					}
+					max = 0;
 
-					bw.write(line + "\t"
-							+ UtilityFunctions.sortHashMap(topCountry).get(0));
+					for (Entry<String, Integer> entry : topCountry.entrySet()) {
+						if (entry.getValue() > max) {
+							topC = entry.getKey();
+							max = entry.getValue();
+						}
+					}
+
+					bw.write(line + "\t" + topC);
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
