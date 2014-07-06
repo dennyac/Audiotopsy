@@ -1,4 +1,4 @@
-CREATE EXTERNAL TABLE all_countries (
+CREATE EXTERNAL TABLE all_countries_comp (
   geonameid BIGINT, 
   name STRING, 
   asciiname STRING, 
