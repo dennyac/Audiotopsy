@@ -28,12 +28,11 @@ public class GetCountries {
 		Filter filter = new PageFilter(50);
 		ResultScanner scanner = null;
 		Scan scan;
-		HashMap<String, Integer> topCountry = new HashMap<String, Integer>();
+		HashMap<String, Integer> topCountry;
 
 		String[] fields = null;
 		String cc;
-		FileUtils fu = new FileUtils(
-				"/home/ec2-user/denny/tmp_choropleth_data");
+		FileUtils fu = new FileUtils("/home/ec2-user/denny/tmp_choropleth_data");
 		File writeFile = new File(
 				"/home/ec2-user/denny/predicted_countries/artist_countries.tsv");
 		if (!writeFile.exists()) {
@@ -59,7 +58,7 @@ public class GetCountries {
 					scanner = table.getScanner(scan);
 
 					// mainObj.put(year, yearTopTracks);
-
+					topCountry = new HashMap<String, Integer>();
 					for (Result res : scanner) {
 						cc = Bytes.toString(res.value());
 						topCountry
@@ -78,13 +77,14 @@ public class GetCountries {
 					}
 
 					bw.write(line + "\t" + topC);
+					bw.newLine();
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
 			}
 			br.close();
-			bw.close();
 		}
+		bw.close();
 		hb.disconnectHBase();
 	}
 
