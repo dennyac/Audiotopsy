@@ -23,6 +23,10 @@ public class HBaseWrite {
 		this.familyName = Bytes.toBytes(familyName);
 		
 	}
+	
+	HBaseWrite(String tableName){
+		this.tableName = Bytes.toBytes(tableName);		
+	}
 
 	public void put(String key, String colQualifier, String value)
 			throws RetriesExhaustedWithDetailsException, InterruptedIOException {
@@ -30,6 +34,18 @@ public class HBaseWrite {
 		Put put = new Put(Bytes.toBytes(key));
 
 		put.add(familyName, Bytes.toBytes(colQualifier),
+				Bytes.toBytes(value));
+
+		htable.put(put);
+
+	}
+	
+	public void put(String key, String colFam, String colQualifier, String value)
+			throws RetriesExhaustedWithDetailsException, InterruptedIOException {
+
+		Put put = new Put(Bytes.toBytes(key));
+
+		put.add(Bytes.toBytes(colFam), Bytes.toBytes(colQualifier),
 				Bytes.toBytes(value));
 
 		htable.put(put);

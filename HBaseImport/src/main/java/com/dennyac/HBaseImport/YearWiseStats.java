@@ -32,10 +32,12 @@ public class YearWiseStats{
 			        
    				  }
 				catch(Exception e){
+					System.out.println("Exception occured in YearWiseStats");
 					e.printStackTrace();
 				}
 			}
 			br.close();
 		}
+		hb.disconnectHBase();
 	}
 }

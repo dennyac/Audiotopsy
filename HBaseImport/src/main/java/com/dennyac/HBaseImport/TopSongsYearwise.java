@@ -29,10 +29,12 @@ public class TopSongsYearwise{
 					}
    				  }
 				catch(Exception e){
+					System.out.println("Exception occured in TopSongsYearwise");
 					e.printStackTrace();
 				}
 			}
 			br.close();
 		}
+		hb.disconnectHBase();
 	}
 }
