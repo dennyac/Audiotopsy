@@ -32,7 +32,7 @@ public class GetCountries {
 		String[] fields = null;
 		String cc;
 		FileUtils fu = new FileUtils(
-				"/home/ec2-user/denny/tmp_all_countries_hash");
+				"/home/ec2-user/denny/tmp_choropleth_data");
 		File writeFile = new File(
 				"/home/ec2-user/denny/predicted_countries/artist_countries.tsv");
 		if (!writeFile.exists()) {
