@@ -52,7 +52,7 @@ public class GetCountries {
 
 				try {
 
-					scan = new Scan(Bytes.toBytes(fields[2].substring(0, 6)));
+					scan = new Scan(Bytes.toBytes(fields[2].substring(0, 12)));
 					scan.addColumn(Bytes.toBytes("cf1"), Bytes.toBytes("cc"));
 					scan.setFilter(filter);
 					scanner = table.getScanner(scan);
