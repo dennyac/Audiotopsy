@@ -25,7 +25,7 @@ public class GetCountries {
 		HTable table = hb.getTable();
 
 		// Get 50 nearest neighbors
-		Filter filter = new PageFilter(50);
+		Filter filter = new PageFilter(25);
 		ResultScanner scanner = null;
 		Scan scan;
 		HashMap<String, Integer> topCountry;
@@ -52,7 +52,7 @@ public class GetCountries {
 
 				try {
 
-					scan = new Scan(Bytes.toBytes(fields[2].substring(0, 12)));
+					scan = new Scan(Bytes.toBytes(fields[2].substring(0, 16)));
 					scan.addColumn(Bytes.toBytes("cf1"), Bytes.toBytes("cc"));
 					scan.setFilter(filter);
 					scanner = table.getScanner(scan);
