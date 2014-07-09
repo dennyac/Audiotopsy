@@ -85,7 +85,7 @@ public class GetStateInfo {
 					bw.write(line + "\t" + topS);
 					bw.newLine();
 				} catch (Exception e) {
-					System.out.println(fields[2]);
+					System.out.println(line);
 					e.printStackTrace();
 				}
 			}
