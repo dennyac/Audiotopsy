@@ -51,7 +51,7 @@ public class GetStateInfo {
 			String line;
 			while ((line = br.readLine()) != null) {
 
-				fields = line.split("\\t");
+				fields = line.split("dennyac");
 
 				try {
 
