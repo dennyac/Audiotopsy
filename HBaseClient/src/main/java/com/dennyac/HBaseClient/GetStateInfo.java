@@ -23,17 +23,18 @@ import org.apache.hadoop.hbase.util.Bytes;
 public class GetStateInfo {
 	public static void main(String[] args) throws FileNotFoundException,
 			IOException {
-		HBaseConnection hb = new HBaseConnection("all_countries_hash");
+		HBaseConnection hb = new HBaseConnection("geonames_states");
 		HTable table = hb.getTable();
 
 		// Get 15 nearest neighbors
+		int counter = 0;
 		Filter filter = new PageFilter(15);
 		ResultScanner scanner = null;
 		Scan scan;
 		HashMap<String, Integer> topState;
 
 		String[] fields = null;
-		String cc;
+		String state;
 		FileUtils fu = new FileUtils("/home/ec2-user/denny/tmp_choropleth_data_us");
 		File writeFile = new File(
 				"/home/ec2-user/denny/predicted_states/artist_states.tsv");
@@ -43,7 +44,7 @@ public class GetStateInfo {
 		FileWriter fw = new FileWriter(writeFile.getAbsoluteFile());
 		BufferedWriter bw = new BufferedWriter(fw);
 		int max;
-		String topC = null;
+		String topS = null;
 		for (String file : fu.listFiles()) {
 
 			BufferedReader br = new BufferedReader(new FileReader(file));
@@ -54,31 +55,34 @@ public class GetStateInfo {
 
 				try {
 
-					scan = new Scan(Bytes.toBytes(fields[2].substring(0, 24)));
-					scan.addColumn(Bytes.toBytes("cf1"), Bytes.toBytes("a1"));
+					scan = new Scan(Bytes.toBytes(fields[2].substring(0, 16)));
+					scan.addColumn(Bytes.toBytes("cf1"), Bytes.toBytes("s"));
 					scan.setFilter(filter);
 					scanner = table.getScanner(scan);
 
 					// mainObj.put(year, yearTopTracks);
 					topState = new HashMap<String, Integer>();
 					for (Result res : scanner) {
-						cc = Bytes.toString(res.value());
+						state = Bytes.toString(res.value());
+						if(counter++ ==10){
+							return;
+						}
 						topState
-								.put(cc,
-										topState.containsKey(cc) ? topState
-												.get(cc) + 1 : 1);
+								.put(state,
+										topState.containsKey(state) ? topState
+												.get(state) + 1 : 1);
 
 					}
 					max = 0;
 
 					for (Entry<String, Integer> entry : topState.entrySet()) {
 						if (entry.getValue() > max) {
-							topC = entry.getKey();
+							topS = entry.getKey();
 							max = entry.getValue();
 						}
 					}
 
-					bw.write(line + "\t" + topC);
+					bw.write(line + "\t" + topS);
 					bw.newLine();
 				} catch (Exception e) {
 					e.printStackTrace();
