@@ -54,7 +54,7 @@ public class GetStateInfo {
 				fields = line.split("dennyac");
 
 				try {
-
+					
 					scan = new Scan(Bytes.toBytes(fields[2].substring(0, 16)));
 					scan.addColumn(Bytes.toBytes("cf1"), Bytes.toBytes("s"));
 					scan.setFilter(filter);
@@ -85,6 +85,7 @@ public class GetStateInfo {
 					bw.write(line + "\t" + topS);
 					bw.newLine();
 				} catch (Exception e) {
+					System.out.println(fields[2]);
 					e.printStackTrace();
 				}
 			}
