@@ -55,7 +55,7 @@ public class GetStateInfo {
 
 				try {
 
-					scan = new Scan(Bytes.toBytes(fields[2].substring(0, 16)));
+					scan = new Scan(Bytes.toBytes(fields[0].substring(0, 16)));
 					scan.addColumn(Bytes.toBytes("cf1"), Bytes.toBytes("s"));
 					scan.setFilter(filter);
 					scanner = table.getScanner(scan);
