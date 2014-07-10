@@ -64,9 +64,6 @@ public class GetStateInfo {
 					topState = new HashMap<String, Integer>();
 					for (Result res : scanner) {
 						state = Bytes.toString(res.value());
-						if(counter++ ==10){
-							return;
-						}
 						topState
 								.put(state,
 										topState.containsKey(state) ? topState
@@ -86,6 +83,12 @@ public class GetStateInfo {
 					bw.newLine();
 				} catch (Exception e) {
 					System.out.println(line);
+					for(String s: fields){
+						System.out.println(s);
+					}
+					if(counter++ ==10){
+						return;
+					}
 					e.printStackTrace();
 				}
 			}
