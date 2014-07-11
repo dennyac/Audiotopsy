@@ -17,6 +17,13 @@ public class MusicResource {
 	public String yearWise() {
 		return msdViews.getYearWiseStatsGraph().toString();
 	}
+	
+	@GET
+	@Path("/countrystats")
+	@Produces("application/json")
+	public String countryWise() {
+		return msdViews.countryStats().toString();
+	}
 
 	@GET
 	@Path("/yeartoptracksk")

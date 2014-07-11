@@ -49,6 +49,51 @@ public class MSDViews {
 		return mainObj;
 	}
 	
+	public JSONObject countryStats() {
+		JSONObject mainObj = new JSONObject();
+
+		try {
+			ResultScanner scanner = null;
+			HTableInterface table = HBaseConnection.getTable("country_stats");
+			Scan scan = new Scan();
+			scanner = table.getScanner(scan);
+			double hot;
+			String hottness = null;
+
+			for (Result res : scanner) {
+
+				JSONObject countryJson = new JSONObject();
+				mainObj.put(Bytes.toString(res.getRow()), countryJson);
+
+				for (Entry<byte[], byte[]> col : res.getFamilyMap(
+						Bytes.toBytes("info")).entrySet()) {
+					countryJson.put(HBaseConnection.getColName(Bytes.toString(col.getKey())),
+							Bytes.toString(col.getValue()));
+					if(Bytes.toString(col.getKey()).equals("ht")){
+						hot = Double.parseDouble(Bytes.toString(col.getValue()));
+						if(hot > 0.60){
+							hottness = "Hot";
+						}
+						else if(hot > 0.30){
+							hottness = "Medium";
+						}
+						else{
+							hottness = "Cold";
+						}
+						countryJson.put("fillKey", hottness);
+					}
+				}
+				
+			}
+			HBaseConnection.closeTable(table);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			System.out.println(e.getMessage());
+		}
+		
+		return mainObj;
+	}
+	
 	public JSONArray getYearWiseStatsGraph() {
 
 		JSONArray yearWiseHotttnesss = new JSONArray();

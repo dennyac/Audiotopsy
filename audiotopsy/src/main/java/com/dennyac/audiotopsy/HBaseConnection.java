@@ -19,6 +19,7 @@ public class HBaseConnection {
 	public static void initializeColQualMappings(){
 		colQual = new HashMap<String,String>();
 		colQual.put("ht", "hotttnesss");
+		colQual.put("ct", "count");
 		colQual.put("du", "duration");
 		colQual.put("tp", "tempo");
 		colQual.put("db", "loudness");
