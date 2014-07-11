@@ -10,11 +10,21 @@ The Million Song Dataset is a collection of a million songs along with meta-data
 For additional information about the million song dataset - 
 http://labrosa.ee.columbia.edu/millionsong/
 
-###After setting up this pipeline, you will be able to issue hive queries like- 
+###After setting up this pipeline, you will be able to - 
+
+1. Issue hive queries like- 
 
   ```sql
   select song_hotttnesss,artist_name,title from denny_msd_date 
   where year ='2009' order by song_hotttnesss desc;
+  ```
+
+2. Make RESTful API calls like-
+
+  ```
+  http://hostname/audiotopsy/rest/music/yearwisestats 						//Get year-wise statistics
+  http://hostname/audiotopsy/rest/music/countrystats 						//Get Country-wise statistics
+  http://hostname/audiotopsy/rest/music/yeartoptracksk?year=1970&key=19700.19TROAIBP128F4280AAF //Get top songs for a given year
   ```
 A detailed description of the field list is available here http://labrosa.ee.columbia.edu/millionsong/pages/field-list
 
@@ -65,6 +75,45 @@ The dataset is publicly available as an Amazon S3 bucket. The dataset is pushed 
 
 ###Prerequisite - 
 - Requires Apache Tomcat and Maven to deploy this web application
+- Download the following javascript and css files. (Maintain folder structure)
+
+  ```
+  //Javascript dependencies
+
+	audiotopsy/src/main/webapp/js/
+	├── bootstrap.min.js
+	├── d3.v3.js
+	├── datamaps.all.min.js
+	├── jquery-2.1.0.js
+	├── nv.d3.js
+	├── topojson.v1.min.js
+	├── src
+	│   ├── core.js
+	│   ├── interactiveLayer.js
+	│   ├── nv.d3.css
+	│   ├── tooltip.js
+	│   ├── utils.js
+	│   └── models
+	│       ├── axis.js
+	│       ├── line.js
+	│       ├── scatter.js
+	│       ├── lineChart.js
+	│       ├── legend.js
+	│       └── backup
+	│           ├── bulletChart.js
+	│           └── bullet.js
+	└── main.js
+
+	//CSS dependencies
+
+	audiotopsy/src/main/webapp/css/
+	├── bootstrap-combined.min.css
+	├── bootstrap.min.css
+	├── bootstrap-responsive.css
+	├── nv.d3.css
+	└── styles.css
+  ```
+
 
 1. To create the war file for the web application
   
